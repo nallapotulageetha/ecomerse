@@ -1,0 +1,397 @@
+* {
+  margin: 0%;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 0.55px solid black;
+}
+
+.head_icons {
+  font-size: 18px;
+  color: grey;
+}
+
+.g_s_selecter {
+  font-size: 13px;
+  border: none;
+  color: gray;
+  padding: 5px;
+}
+
+.board_bar {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  width: 50%;
+  padding: 3px;
+}
+
+.s_bar {
+  padding: 15px;
+}
+
+.navbar {
+  height: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "poppins", sans-serif;
+}
+
+.unorder {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  color: black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* <======= starting_img_items =======> */
+.d_img {
+  background-image: url("https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg");
+  height: 70vh;
+  background-size: cover;
+  padding: 60px;
+  font-family: Verdana;
+  font-size: 25px;
+  line-height: 70px;
+}
+
+.buttun {
+  width: fit-content;
+  font-size: small;
+  font-weight: bolder;
+  height: fit-content;
+  padding: 8px;
+  background-color: rgb(248, 162, 125);
+  border-radius: 4px;
+}
+
+.color {
+  color: rgb(237, 76, 7);
+}
+
+.t_main_box {
+  display: flex;
+  gap: 6px;
+  padding: 35px;
+  justify-content: space-between;
+}
+
+.small_box {
+  display: flex;
+  border: 1px solid rgb(190, 189, 187);
+}
+
+.small_box:hover {
+  box-shadow: 1px 1px 6px rgb(59, 58, 59);
+}
+
+.ssb_img {
+  height: 73px;
+  width: 70px;
+  padding: 5px;
+}
+
+.sbox_num {
+  display: flex;
+  gap: 15px;
+  padding-top: 5px;
+  font-family: Verdana;
+}
+
+.show_text {
+  font-size: large;
+  text-decoration: none;
+  color: rgb(237, 76, 7);
+  font-family: Verdana;
+}
+
+#s_main {
+  height: 1000px;
+  width: auto;
+  border: 1px solid blue;
+}
+
+.a_side {
+  display: flex;
+  height: 50px;
+  width: 300px;
+  margin-left: 45px;
+}
+
+.category {
+  width: 75%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.aa_side {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.aside {
+  display: grid;
+  position: sticky;
+  height: min-content;
+}
+
+.s_sbox {
+  display: flex;
+}
+
+.ss_box {
+  border: 1px solid rgb(190, 189, 187);
+  height: 78px;
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.ss_box:hover {
+  box-shadow: 0px 0px 6px rgb(130, 241, 71);
+}
+
+.centerdiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+#padding {
+  padding: 10px;
+}
+
+.b_box {
+  height: 50%;
+  width: 75%;
+  border: 1px solid rgb(185, 50, 50);
+  margin-top: 2%;
+  display: flex;
+}
+
+.al_av {
+  height: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.rating {
+  height: 2%;
+  width: 90%;
+  background-color: rgb(196, 193, 193);
+  border-radius: 5px;
+  margin-top: 5%;
+
+}
+
+.pink {
+  height: 70%;
+  width: 70%;
+  border-radius: 5px;
+  background-color: rgb(248, 147, 181);
+  align-items: center;
+  margin-top: 0.40%;
+}
+
+.sqe_bpx {
+  height: 8vh;
+  width: 5vw;
+  background-color: rgb(171, 168, 168);
+  border-radius: 5px;
+}
+
+.new_products {
+  width: 23%;
+  margin: 1%;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.branddirectory {
+  padding: 3% 9%;
+  border-bottom: 1px solid grey;
+  background-color: black;
+  color: white;
+  width: auto;
+}
+
+.threepic {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainleft {
+  width: 21%;
+  box-shadow: 0px 0px 1px grey;
+}
+
+.mainleft h1 {
+  border-bottom: 1px solid grey;
+  padding-top: 5%;
+  padding-left: 4%;
+}
+
+.nameuser {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.work {
+  font-size: 1em;
+}
+
+.midpic {
+  width: 40%;
+  background-image: url(https://prabhatlodhi-ecomm-site-responsive.netlify.app/images/cta-banner.jpg);
+  justify-content: center;
+  box-shadow: 0px 0px 1px grey;
+}
+
+.textforpic {
+  margin: 12%;
+  width: 50%;
+  background-color: white;
+  opacity: 0.7;
+  text-align: center;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.textforpic .discount {
+  color: white;
+  background-color: black;
+  width: 54%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.leftmostpart {
+  padding: 5%;
+  text-align: center;
+}
+
+.leftmostpart img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 4% 0%;
+}
+
+.rightmostpart {
+  height: 100%;
+  padding: 5%;
+}
+
+.rightmostpart {
+  height: 100%;
+  padding: 5%;
+}
+
+.blocker .fa {
+  font-size:2.2em; color:lightpink; margin: 0% 5%;
+}
+
+.toptext {
+  color: rgb(100, 100, 100);
+  font-weight: bold;
+}
+
+.bottomtext {
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+
+.fashion {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2% 0%;
+}
+
+.one_card {
+  width: 22%;
+  border-radius: 5px;
+}
+
+.one_card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.detailsd {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.lista {
+  margin: 1.5% 0%;
+}
+
+.lista li {
+  display: inline;
+  font-size: 0.8em;
+}
+
+.lista a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.verticalli {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-bottom: 1px solid grey;
+  align-items: stretch;
+  color: white;
+}
+
+.verticalli ul {
+  list-style: none;
+  color: rgb(100, 100, 100);
+}
+
+.verticalli ul a {
+  color: rgb(100, 100, 100);
+}
+
+.mainhead {
+  padding: 3% 2%;
+}
+
+.last {
+  justify-content: center;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: black;
+  padding: 2% 0%;
+  padding-bottom: 40px;
+  color: white;
+}
